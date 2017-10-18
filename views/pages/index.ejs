@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<% include ../partials/head %>
+<body>
+    <% include ../partials/header %>
+    <%
+        messages.reverse().forEach(message => {
+    %>
+
+    <div class="message">
+        <h1><%= message.title %></h1>
+        <p><%= message.body %></p>
+    </div>
+
+    <%
+    });
+    %>
+</body>
+</html>

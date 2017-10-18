@@ -1,0 +1,27 @@
+{
+  "name": "bulletinboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "pg": "^7.3.0",
+    "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArneNycda/bulletinBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArneNycda/bulletinBoard/issues"
+  },
+  "homepage": "https://github.com/ArneNycda/bulletinBoard#readme"
+}
